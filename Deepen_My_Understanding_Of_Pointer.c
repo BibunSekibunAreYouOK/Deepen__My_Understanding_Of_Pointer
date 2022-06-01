@@ -1,4 +1,5 @@
 #include<stdio.h>
+void pointer(int n, double* x_p);
 
 int main(void)
 {
@@ -9,4 +10,8 @@ int main(void)
 	b = *p + 1;//bにpのメモリの中身を代入する。このとき、aのアドレスを1000番地と仮定すると、bが入るアドレスは1004番地
 	printf("a=%d,b=%d\n", a, b);//[結果]aのメモリは100
 	return 0;
+}
+
+void pointer(int n, double* x_p)
+{
 }
